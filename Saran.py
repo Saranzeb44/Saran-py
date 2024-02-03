@@ -262,4 +262,4 @@ def free(uid,pwx,tl):
         
  
 if __name__ == '__main__',
-   xyz()
+(zeb)
